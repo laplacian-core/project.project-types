@@ -14,6 +14,8 @@ project:
   - group: laplacian
     name: project.schema-plugin
     version: '1.0.0'
+  templates: []
+  models: []
   model_files:
   - src/
   template_files: []
