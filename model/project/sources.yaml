@@ -8,6 +8,7 @@ project:
   - "model/project.yaml"
   - "src/project_types/generator.yaml"
   - "src/project_types/model.yaml"
+  - "src/project_types/plugin.yaml"
   - "src/project_types/schema-model.yaml"
   - "src/project_types/schema-plugin.yaml"
   - "src/project_types/template.yaml"

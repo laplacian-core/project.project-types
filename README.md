@@ -50,6 +50,8 @@ project:
 
 [src/project_types/model.yaml](<./src/project_types/model.yaml>)
 
+[src/project_types/plugin.yaml](<./src/project_types/plugin.yaml>)
+
 [src/project_types/schema-model.yaml](<./src/project_types/schema-model.yaml>)
 
 [src/project_types/schema-plugin.yaml](<./src/project_types/schema-plugin.yaml>)

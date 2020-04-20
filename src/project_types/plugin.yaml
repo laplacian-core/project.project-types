@@ -1,0 +1,4 @@
+project_types:
+- name: plugin
+  description: Project for a module which enhances the capabilities of generator
+  base_type_name: generator
