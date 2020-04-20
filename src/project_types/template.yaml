@@ -1,5 +1,5 @@
 project_types:
-- name: model
+- name: template
   description: Project which generate a Laplacian template module
   plugins:
   - group: laplacian
