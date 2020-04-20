@@ -1,0 +1,15 @@
+project_types:
+- name: generator
+  description: The default project type
+  plugins:
+  - group: laplacian
+    name: project.schema-plugin
+    version: '1.0.0'
+  models:
+  - group: laplacian
+    name: project.document-content
+    version: '1.0.0'
+  templates:
+  - group: laplacian
+    name: project.base-template
+    version: '1.0.0'

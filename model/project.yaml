@@ -1,0 +1,27 @@
+project:
+  group: laplacian
+  name: project.project-types
+  type: model
+  namespace: laplacian
+  version: '1.0.0'
+  description: |
+    The basic project types used in the Laplacian project.
+  source_repository:
+    url: https://github.com/nabla-squared/laplacian.project.project-types.git
+    branch: master
+  subprojects: []
+  plugins:
+  - group: laplacian
+    name: project.schema-plugin
+    version: '1.0.0'
+  templates:
+  - group: laplacian
+    name: project.base-template
+    version: '1.0.0'
+  models:
+  - group: laplacian
+    name: project.document-content
+    version: '1.0.0'
+  model_files:
+  - src/
+  template_files: []
