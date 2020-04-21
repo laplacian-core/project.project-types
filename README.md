@@ -46,6 +46,10 @@ project:
 
 [model/project.yaml](<./model/project.yaml>)
 
+[src/project_types/arch-model.yaml](<./src/project_types/arch-model.yaml>)
+
+[src/project_types/domain-model.yaml](<./src/project_types/domain-model.yaml>)
+
 [src/project_types/generator.yaml](<./src/project_types/generator.yaml>)
 
 [src/project_types/model.yaml](<./src/project_types/model.yaml>)
