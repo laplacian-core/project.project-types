@@ -1,5 +1,6 @@
 project_types:
 - name: generator
+  role: generator
   description: The default project type
   plugins:
   - group: laplacian

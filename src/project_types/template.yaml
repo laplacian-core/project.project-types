@@ -1,5 +1,6 @@
 project_types:
 - name: template
+  role: template
   description: Project which generate a Laplacian template module
   base_type_name: generator
   models:
