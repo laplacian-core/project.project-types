@@ -60,6 +60,8 @@ project:
 
 [src/project_types/schema-plugin.yaml](<./src/project_types/schema-plugin.yaml>)
 
+[src/project_types/service-generator.yaml](<./src/project_types/service-generator.yaml>)
+
 [src/project_types/template.yaml](<./src/project_types/template.yaml>)
 
 

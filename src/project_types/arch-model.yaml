@@ -3,12 +3,9 @@ project_types:
   description: Project for Models describing the components which an enterprise system consists of.
   base_type_name: model
   plugins:
-  - group: laplacian
-    name: metamodel-plugin
-    version: '1.0.0'
   - group: laplacian-arch
     name: datasource.schema-plugin
     version: '1.0.0'
   - group: laplacian-arch
-    name: service-pai.schema-plugin
+    name: service-api.schema-plugin
     version: '1.0.0'
