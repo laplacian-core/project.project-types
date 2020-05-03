@@ -51,10 +51,6 @@ $ ./script/generate --dry-run
 ### Source code list
 
 
-- [model/project/document/document.yaml](<./model/project/document/document.yaml>)
-- [model/project/document/sections/index.yaml](<./model/project/document/sections/index.yaml>)
-- [model/project/document/sections/usage.yaml](<./model/project/document/sections/usage.yaml>)
-- [model/project/document/sections.yaml](<./model/project/document/sections.yaml>)
 - [model/project/sources.yaml](<./model/project/sources.yaml>)
 - [model/project.yaml](<./model/project.yaml>)
 - [src/project_types/arch-model.yaml](<./src/project_types/arch-model.yaml>)
