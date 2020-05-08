@@ -1,0 +1,10 @@
+project_types:
+- name: project-group
+  description: |
+    A project group is a set of projects grouped together for administrative purposes.
+    Project groups enable administrative actions to affect multiple projects and users simultaneously.
+  base_type_name: model
+  templates:
+  - group: laplacian
+    name: project-group.document-template
+    version: '1.0.0'

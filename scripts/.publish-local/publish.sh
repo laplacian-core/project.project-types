@@ -5,18 +5,6 @@ GRADLE_BUILD_FILE="$GRADLE_DIR/build.gradle"
 GRADLE_SETTINGS_FILE="$GRADLE_DIR/settings.gradle"
 DEST_DIR="$PROJECT_BASE_DIR/dest"
 
-main() {
-  if ! [ -z $SKIP_GENERATION ]
-  then
-    generate
-  fi
-  publish
-}
-
-generate() {
-  $SCRIPT_BASE_DIR/generate.sh
-}
-
 publish() {
   trap clean EXIT
   create_build_dir

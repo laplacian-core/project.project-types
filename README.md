@@ -46,7 +46,7 @@ diff --color -r PROJECT_HOME/.NEXT/somewhere/something.md PROJECT_HOME/somewhere
 
 If there is no problem, execute the following command to reflect the change.
 ```console
-$ ./script/generate --dry-run
+$ ./script/generate
 
 ```
 
@@ -79,7 +79,7 @@ $ ./script/generate --dry-run
       Each of these directories contains the template files of the resource to be output
       in the directory `dest/` `doc/` `scripts`.
 
-    - `template/model` template/template`
+    - `template/model` `template/template`
       These directories store template files updating the contents of `template/` and `model/` used for the generation.
       If the content of `template/` `model/` is updated as a result of the generation,
       the generation process is executed recursively.
@@ -157,6 +157,7 @@ $ ./script/generate --dry-run
 - [src/project_types/generator.yaml](<./src/project_types/generator.yaml>)
 - [src/project_types/model.yaml](<./src/project_types/model.yaml>)
 - [src/project_types/plugin.yaml](<./src/project_types/plugin.yaml>)
+- [src/project_types/project-group.yaml](<./src/project_types/project-group.yaml>)
 - [src/project_types/schema-model.yaml](<./src/project_types/schema-model.yaml>)
 - [src/project_types/schema-plugin.yaml](<./src/project_types/schema-plugin.yaml>)
 - [src/project_types/service-generator.yaml](<./src/project_types/service-generator.yaml>)
