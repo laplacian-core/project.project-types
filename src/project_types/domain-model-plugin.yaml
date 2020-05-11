@@ -18,5 +18,5 @@ project_types:
     version: '1.0.0'
   templates:
   - group: laplacian
-    name: schema.plugin-template
+    name: domain-model-plugin.project-template
     version: '1.0.0'

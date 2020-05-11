@@ -6,9 +6,6 @@ project_types:
   - group: laplacian
     name: metamodel-plugin
     version: '1.0.0'
-  - group: laplacian
-    name: common-model-plugin
-    version: '1.0.0'
   models:
   - group: laplacian
     name: metamodel

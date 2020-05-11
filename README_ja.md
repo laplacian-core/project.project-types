@@ -144,7 +144,6 @@ $ ./script/generate
 ### ソースコード一覧
 
 
-- [model/project/sources.yaml](<./model/project/sources.yaml>)
 - [model/project.yaml](<./model/project.yaml>)
 - [src/project_types/arch-model.yaml](<./src/project_types/arch-model.yaml>)
 - [src/project_types/domain-model-plugin.yaml](<./src/project_types/domain-model-plugin.yaml>)

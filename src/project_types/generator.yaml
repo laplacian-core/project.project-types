@@ -4,7 +4,10 @@ project_types:
   description: The default project type
   plugins:
   - group: laplacian
-    name: project.schema-plugin
+    name: project.domain-model-plugin
+    version: '1.0.0'
+  - group: laplacian
+    name: common-model-plugin
     version: '1.0.0'
   models:
   - group: laplacian
@@ -12,9 +15,5 @@ project_types:
     version: '1.0.0'
   templates:
   - group: laplacian
-    name: project.base-template
+    name: generator.project-template
     version: '1.0.0'
-  - group: laplacian
-    name: project.document-template
-    version: '1.0.0'
-
