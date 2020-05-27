@@ -1,7 +1,7 @@
 <!-- @head-content@ -->
 # laplacian/project.project-types
 
-The basic project types used in the Laplacian project.
+各プロジェクトタイプの内容を定義するモデルデータです。
 
 
 *Read this in other languages*: [[English](README.md)] [[简体中文](README_zh.md)]

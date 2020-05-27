@@ -6,11 +6,11 @@ project:
   version: '1.0.0'
   description:
     en: |
-      The basic project types used in the Laplacian project.
+      The model data that defines the content of each project type.
     ja: |
-      The basic project types used in the Laplacian project.
+      各プロジェクトタイプの内容を定義するモデルデータです。
     zh: |
-      The basic project types used in the Laplacian project.
+      定义了每个项目类型的内容的模型数据。
   source_repository:
     url: https://github.com/nabla-squared/laplacian.project.project-types.git
     branch: master
@@ -21,7 +21,20 @@ project:
     - https://github.com/nabla-squared/mvn-repo
   plugins:
   - group: laplacian
-    name: project.schema-plugin
+    name: metamodel-plugin
+    version: '1.0.0'
+  - group: laplacian
+    name: project.domain-model-plugin
+    version: '1.0.0'
+  models:
+  - group: laplacian
+    name: project.domain-model
+    version: '1.0.0'
+  - group: laplacian
+    name: project.domain-model
+    version: '1.0.0'
+  - group: laplacian
+    name: common-model
     version: '1.0.0'
   model_files:
   - 'src/'
