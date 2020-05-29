@@ -2,16 +2,9 @@ project_types:
 - name: domain-model
   description: Project for a model which expresses certain domain.
   base_type_name: model
-  plugins:
-  - group: laplacian
-    name: metamodel-plugin
-    version: '1.0.0'
   models:
   - group: laplacian
     name: metamodel
-    version: '1.0.0'
-  - group: laplacian
-    name: common-model
     version: '1.0.0'
   templates:
   - group: laplacian
