@@ -72,9 +72,6 @@ update_file_index() {
   mkdir -p $index_dir
   cat <<EOF > "$index_dir/sources.yaml"
 project:
-  group: laplacian
-  name: project.project-types
-  version: '1.0.0'
   sources:$(file_list | sort -d)
 EOF
 }
@@ -103,9 +100,9 @@ generate() {
     schema_option="--model-schema $(normalize_path 'model-schema-partial.json')"
   fi
   $generator_script ${VERBOSE:+'-v'} \
+    --plugin 'laplacian:laplacian.metamodel-plugin:1.0.0' \
     --plugin 'laplacian:laplacian.project.domain-model-plugin:1.0.0' \
     --plugin 'laplacian:laplacian.common-model-plugin:1.0.0' \
-    --plugin 'laplacian:laplacian.metamodel-plugin:1.0.0' \
     --template 'laplacian:laplacian.generator.project-template:1.0.0' \
     --model 'laplacian:laplacian.project.project-types:1.0.0' \
     --model 'laplacian:laplacian.project.domain-model:1.0.0' \

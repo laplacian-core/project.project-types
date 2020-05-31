@@ -145,16 +145,12 @@ $ ./script/generate
 
 
 - [model/project.yaml](<./model/project.yaml>)
-- [src/project_types/arch-model.yaml](<./src/project_types/arch-model.yaml>)
 - [src/project_types/domain-model-plugin.yaml](<./src/project_types/domain-model-plugin.yaml>)
 - [src/project_types/domain-model.yaml](<./src/project_types/domain-model.yaml>)
 - [src/project_types/generator.yaml](<./src/project_types/generator.yaml>)
 - [src/project_types/model.yaml](<./src/project_types/model.yaml>)
 - [src/project_types/plugin.yaml](<./src/project_types/plugin.yaml>)
 - [src/project_types/project-group.yaml](<./src/project_types/project-group.yaml>)
-- [src/project_types/schema-model.yaml](<./src/project_types/schema-model.yaml>)
-- [src/project_types/schema-plugin.yaml](<./src/project_types/schema-plugin.yaml>)
-- [src/project_types/service-generator.yaml](<./src/project_types/service-generator.yaml>)
 - [src/project_types/template.yaml](<./src/project_types/template.yaml>)
 
 
