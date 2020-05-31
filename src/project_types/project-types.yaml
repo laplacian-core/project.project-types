@@ -1,0 +1,5 @@
+project_types:
+- name: project-types
+  description: |
+    A project for a model module that defines project-types.
+  base_type_name: model

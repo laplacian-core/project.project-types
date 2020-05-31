@@ -156,6 +156,7 @@ $ ./script/generate
 - [src/project_types/model.yaml](<./src/project_types/model.yaml>)
 - [src/project_types/plugin.yaml](<./src/project_types/plugin.yaml>)
 - [src/project_types/project-group.yaml](<./src/project_types/project-group.yaml>)
+- [src/project_types/project-types.yaml](<./src/project_types/project-types.yaml>)
 - [src/project_types/template.yaml](<./src/project_types/template.yaml>)
 
 
