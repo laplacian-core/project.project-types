@@ -119,6 +119,16 @@ $ ./script/generate
   >
   >   当`model/` `template/`目录的内容在生成过程中被更新时，递归执行的次数上限。
   >    (Default: 10)
+  > , --local-module-repository [VALUE]
+  >
+  >   存储本地构建的模块的存储库路径。
+  >   这个存储库中的模块具有最高优先级。
+  >   
+  > , --updates-scripts-only
+  >
+  >   仅更新脚本文件。
+  >   这个选项在项目初始生成时用于生成生成器脚本本身。
+  >   
 - [./script/publish-local.sh](<./scripts/publish-local.sh>)
 
   项目中的资源生成后，在`./dest`目录下的资源作为模型模块建立，并在本地资源库中注册。
@@ -141,18 +151,23 @@ $ ./script/generate
   >
   >   这个选项与[generate.sh](<./scripts/generate.sh>)中的同名选项相同。
   >   
+  > , --local-module-repository [VALUE]
+  >
+  >   到本地存储库的路径。
+  >   如果在指定的路径中不存在存储库，将自动创建。
+  >   
 ### 源码列表
 
 
 - [model/project.yaml](<./model/project.yaml>)
-- [src/project_types/domain-model-plugin.yaml](<./src/project_types/domain-model-plugin.yaml>)
-- [src/project_types/domain-model.yaml](<./src/project_types/domain-model.yaml>)
-- [src/project_types/generator.yaml](<./src/project_types/generator.yaml>)
-- [src/project_types/model.yaml](<./src/project_types/model.yaml>)
-- [src/project_types/plugin.yaml](<./src/project_types/plugin.yaml>)
-- [src/project_types/project-group.yaml](<./src/project_types/project-group.yaml>)
-- [src/project_types/project-types.yaml](<./src/project_types/project-types.yaml>)
-- [src/project_types/template.yaml](<./src/project_types/template.yaml>)
+- [src/model/project_types/domain-model-plugin.yaml](<./src/model/project_types/domain-model-plugin.yaml>)
+- [src/model/project_types/domain-model.yaml](<./src/model/project_types/domain-model.yaml>)
+- [src/model/project_types/generator.yaml](<./src/model/project_types/generator.yaml>)
+- [src/model/project_types/model.yaml](<./src/model/project_types/model.yaml>)
+- [src/model/project_types/plugin.yaml](<./src/model/project_types/plugin.yaml>)
+- [src/model/project_types/project-group.yaml](<./src/model/project_types/project-group.yaml>)
+- [src/model/project_types/project-types.yaml](<./src/model/project_types/project-types.yaml>)
+- [src/model/project_types/template.yaml](<./src/model/project_types/template.yaml>)
 
 
 <!-- @main-content@ -->

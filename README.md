@@ -122,6 +122,17 @@ $ ./script/generate
   >   when the contents of the `model/` `template/` directory are updated
   >   during the generation process.
   >    (Default: 10)
+  > , --local-module-repository [VALUE]
+  >
+  >   The repository path to store locally built modules.
+  >   The modules in this repository have the highest priority.
+  >   
+  > , --updates-scripts-only
+  >
+  >   Updates script files only.
+  >   This option is used to generate the generator script itself
+  >   when the project is initially generated.
+  >   
 - [./script/publish-local.sh](<./scripts/publish-local.sh>)
 
   After the resources in the project are generated,
@@ -146,18 +157,23 @@ $ ./script/generate
   >
   >   This option is the same as the option of the same name in [generate.sh](<./scripts/generate.sh>).
   >   
+  > , --local-module-repository [VALUE]
+  >
+  >   The path to the local repository where the built module will be stored.
+  >   If the repository does not exist in the specified path, it will be created automatically.
+  >   
 ### Source code list
 
 
 - [model/project.yaml](<./model/project.yaml>)
-- [src/project_types/domain-model-plugin.yaml](<./src/project_types/domain-model-plugin.yaml>)
-- [src/project_types/domain-model.yaml](<./src/project_types/domain-model.yaml>)
-- [src/project_types/generator.yaml](<./src/project_types/generator.yaml>)
-- [src/project_types/model.yaml](<./src/project_types/model.yaml>)
-- [src/project_types/plugin.yaml](<./src/project_types/plugin.yaml>)
-- [src/project_types/project-group.yaml](<./src/project_types/project-group.yaml>)
-- [src/project_types/project-types.yaml](<./src/project_types/project-types.yaml>)
-- [src/project_types/template.yaml](<./src/project_types/template.yaml>)
+- [src/model/project_types/domain-model-plugin.yaml](<./src/model/project_types/domain-model-plugin.yaml>)
+- [src/model/project_types/domain-model.yaml](<./src/model/project_types/domain-model.yaml>)
+- [src/model/project_types/generator.yaml](<./src/model/project_types/generator.yaml>)
+- [src/model/project_types/model.yaml](<./src/model/project_types/model.yaml>)
+- [src/model/project_types/plugin.yaml](<./src/model/project_types/plugin.yaml>)
+- [src/model/project_types/project-group.yaml](<./src/model/project_types/project-group.yaml>)
+- [src/model/project_types/project-types.yaml](<./src/model/project_types/project-types.yaml>)
+- [src/model/project_types/template.yaml](<./src/model/project_types/template.yaml>)
 
 
 <!-- @main-content@ -->

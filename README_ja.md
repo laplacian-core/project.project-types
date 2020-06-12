@@ -118,6 +118,16 @@ $ ./script/generate
   >   自動生成処理中に`model/` `template/`ディレクトリの内容が更新された場合に、
   >   再帰的に自動生成処理を実行する回数の上限。
   >    (Default: 10)
+  > , --local-module-repository [VALUE]
+  >
+  >   ローカルでビルドされたモジュールを格納するリポジトリのパス。
+  >   ここに存在するモジュールが最優先で参照されます。
+  >   
+  > , --updates-scripts-only
+  >
+  >   スクリプトファイルのみを更新の対象とします。
+  >   プロジェクトを初期生成する際、自動生成スクリプト自体を初回作成する場合などに指定します。
+  >   
 - [./script/publish-local.sh](<./scripts/publish-local.sh>)
 
   プロジェクト内の資源を自動生成した後、ディレクトリにある資源をモデルモジュールとしてビルドし、
@@ -141,18 +151,23 @@ $ ./script/generate
   >
   >   自動生成処理を行わずに、ビルドおよびローカルリポジトリへの登録を行います。
   >   
+  > , --local-module-repository [VALUE]
+  >
+  >   ビルドしたモジュールを格納するローカルリポジトリのパス。
+  >   指定したパスにリポジトリが存在しない場合は、自動的に作成されます。
+  >   
 ### ソースコード一覧
 
 
 - [model/project.yaml](<./model/project.yaml>)
-- [src/project_types/domain-model-plugin.yaml](<./src/project_types/domain-model-plugin.yaml>)
-- [src/project_types/domain-model.yaml](<./src/project_types/domain-model.yaml>)
-- [src/project_types/generator.yaml](<./src/project_types/generator.yaml>)
-- [src/project_types/model.yaml](<./src/project_types/model.yaml>)
-- [src/project_types/plugin.yaml](<./src/project_types/plugin.yaml>)
-- [src/project_types/project-group.yaml](<./src/project_types/project-group.yaml>)
-- [src/project_types/project-types.yaml](<./src/project_types/project-types.yaml>)
-- [src/project_types/template.yaml](<./src/project_types/template.yaml>)
+- [src/model/project_types/domain-model-plugin.yaml](<./src/model/project_types/domain-model-plugin.yaml>)
+- [src/model/project_types/domain-model.yaml](<./src/model/project_types/domain-model.yaml>)
+- [src/model/project_types/generator.yaml](<./src/model/project_types/generator.yaml>)
+- [src/model/project_types/model.yaml](<./src/model/project_types/model.yaml>)
+- [src/model/project_types/plugin.yaml](<./src/model/project_types/plugin.yaml>)
+- [src/model/project_types/project-group.yaml](<./src/model/project_types/project-group.yaml>)
+- [src/model/project_types/project-types.yaml](<./src/model/project_types/project-types.yaml>)
+- [src/model/project_types/template.yaml](<./src/model/project_types/template.yaml>)
 
 
 <!-- @main-content@ -->

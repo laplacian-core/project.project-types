@@ -3,3 +3,7 @@ project_types:
   role: template
   description: Project which generate a Laplacian template module
   base_type_name: generator
+  templates:
+  - group: laplacian
+    name: template.project-template
+    version: '1.0.0'
