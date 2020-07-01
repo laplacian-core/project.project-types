@@ -16,6 +16,7 @@ LOCAL_MODULE_REPOSITORY=
 UPDATES_SCRIPTS_ONLY=
 
 
+# @main@
 NEXT_CONTENT_DIR_NAME='.NEXT'
 NEXT_CONTENT_DIR="$PROJECT_BASE_DIR/$NEXT_CONTENT_DIR_NAME"
 PREV_CONTENT_DIR_NAME='.PREV'
@@ -157,8 +158,9 @@ apply_next_content() {
 
   rm -rf $NEXT_CONTENT_DIR $PREV_CONTENT_DIR
 }
+# @main@
 
-# @additional-declarations@
+# @+additional-declarations@
 # @additional-declarations@
 
 parse_args() {
@@ -187,7 +189,7 @@ parse_args() {
     h) HELP='yes';;
     v) VERBOSE='yes';;
     d) DRY_RUN='yes';;
-    r) MAX_RECURSION=("${!OPTIND}"); OPTIND=$(($OPTIND+1));;
+    r) MAX_RECURSION="$OPTARG";;
     esac
   done
   ARGS=$@
